@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Tabs</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="main">
+        
+        <div class="main-content" id="main-content">
+
+            <div class="content" id="content">
+
+                <div class="mainn">
+
+                <div class="flex">
+                    <div class="tab">
+
+                        <button class="tablinks" onclick="openPlayer(event, 'music')" id="m">your music</button>
+                        
+                        <button class="tablinks" onclick="openPlayer(event, 'library')" id="n">your library</button>
+                         
+                    </div>
+                    <div class="contact">
+                        <div class="flexx">
+                        <img src="./kunman.jpg" alt="">
+                        <h6>kundai</h6>
+                        <img src="./bell-regular-24 (1).png" alt="" style="float: right;transform: rotate(-90deg);;">
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <h1 style="text-transform: capitalize;color: white;margin: 5px 29px;" id="change">your music</h1>
+            <p style="text-transform: capitalize;color: gray;margin: 5px 29px;" id="para">music liked by kundai</p>
+
+            <div class="flex-cards tabcontent" id="music">
+                <div class="card">
+                    <img src="./home page/chris-brown-photo-backgrounds-wallpaper-preview.jpg" alt="">
+                    <h3>Autumn Leaves</h3>
+                    <p>2016</p>
+                    <div style="width: 100px;height: 4px;background-color: red;border-radius: 100px;background-color: rgb(74, 74, 232);margin: 10px 0px;"></div>
+                </div>
+
+                <div class="card">
+                    <img src="./home page/rihanna-wallpaper-preview.jpg" alt="">
+                    <h3>We Found Love</h3>
+                    <p>2014</p>
+              
+                </div>
+
+                <div class="card">
+                    <img src="./home page/adele-21-wallpaper-preview.jpg" alt="">
+                    <h3>Hello</h3>
+                    <p>2020</p>
+               
+                </div>
+            </div>
+
+            <div class="flex-cards tabcontent" id="library">
+                <div class="card">
+                    <img src="./home page/wiz-khalifa-4k-desktop-wallpaper-preview.jpg" alt="">
+                    <h3>Autumn Leaves</h3>
+                    <p>2016</p>
+               
+                </div>
+
+                <div class="card">
+                    <img src="./home page/beyonc-wallpaper-preview.jpg" alt="">
+                    <h3>We Found Love</h3>
+                    <p>2014</p>
+                    <div style="width: 100px;height: 4px;background-color: red;border-radius: 100px;background-color: rgb(74, 74, 232);margin: 10px 0px;"></div>
+              
+                </div>
+
+                <div class="card">
+                    <img src="./home page/male-celebrities-1920x1200-tupac-shakur-2pac-wallpaper-preview.jpg" alt="">
+                    <h3>Hello</h3>
+                    <p>2020</p>
+               
+                </div>
+            </div>
+
+        </div>
+
+            <div class="white">
+
+                <h1 style="margin: 5px 30px;">browse by genre</h1>
+                <p style="margin: 5px 30px;">new songs added everyday </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="./app.js"></script>
+    
+</body>
+</html>
